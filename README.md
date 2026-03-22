@@ -77,6 +77,7 @@ Then reference the files from the root project documentation or symlink the chos
 
 - use `manager.md`, `builder.md`, `tester.md`, `critic.md`, and `reviewer.md` as explicit passes or sub-agent roles
 - copy the files in `templates/` if the project wants durable progress, task, and decision state
+- require agents to use conventional commit summaries plus a commit body when asked to commit or push
 - rerun `AGENTS_UPDATE_PLAN.md` whenever you change the project’s agent doctrine
 - update `RESEARCH_SNAPSHOT.md` so future edits are anchored to dated evidence
 
@@ -116,6 +117,16 @@ Rerun AGENTS_UPDATE_PLAN.md.
 Check the latest primary sources.
 Update RESEARCH_SNAPSHOT.md, AGENTS.md, and README examples together.
 Do not promote a new pattern into the template unless the evidence is strong and portable.
+```
+
+### Example 4: commit and push behavior
+
+When asking an agent to finalize work:
+
+```text
+If you commit, use a conventional summary line such as feat:, fix:, or chore:.
+Always include a commit body that explains what changed and why.
+Do not push a one-line commit message.
 ```
 
 ## Why this repo looks like this

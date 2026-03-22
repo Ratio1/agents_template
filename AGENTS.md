@@ -97,6 +97,30 @@ If changing the repo’s agent doctrine, workflows, role definitions, or evaluat
 - separate enduring principles from vendor-specific implementation details
 - update the dated research snapshot and examples
 
+### 8. Commit and push discipline
+
+If asked to commit:
+
+- use a concise conventional summary line with a prefix such as `feat:`, `fix:`, or `chore:`
+- always include a commit body, not only a one-line message
+- the body should explain what changed and why in a few high-signal lines
+
+If asked to push:
+
+- make sure the local commit message already follows the above format before pushing
+
+Default format:
+
+```text
+feat: short summary
+
+What changed:
+- concise change summary
+
+Why:
+- concise reason or user outcome
+```
+
 ## Standard operating loop
 
 Use this loop by default.
